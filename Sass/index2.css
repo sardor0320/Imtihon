@@ -1,1 +1,11 @@
-/*# sourceMappingURL=index2.css.map */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.history__page {
+  width: 100%;
+  height: 100vh;
+  background-color: #0C0C0C;
+}/*# sourceMappingURL=index2.css.map */
