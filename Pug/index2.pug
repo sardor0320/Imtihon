@@ -5,6 +5,56 @@ html(lang="en")
         meta(name="viewport", content="width=device-width, initial-scale=1.0")
         link(rel="stylesheet", href="/Sass/index2.css")
         title Document
-    body 
+    body
+        nav 
+            h1 Gerícht
+            ul 
+                each eli in ["Home","Pages","Contact us","Blog","Landing"]
+                    li=eli 
+            p Log in / registration       |      Book table
+        section.hero 
         section.history__page 
-            h3 Our History  
+            h1 Our History
+            h1 serving customers for over a decade
+            .history__page--content 
+                .history__page--content--first
+                    p Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quis<br> pharetra adipiscing ultrices vulputate posuere tristique. In sed<br> odio nec aliquet eu proin mauris et. 
+                    img(src="/assets/img/rasm.png", alt="")
+                .history__page--content--second 
+                    img(src="https://s3-alpha-sig.figma.com/img/fef4/ca58/f46f205beb3acf257f5dbc5018b90797?Expires=1718582400&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=frzkhmaxR4wrRmraoNRPxRb7EuTcqOLvdd2eOTt1ic56Bl9DznLn8vR1TSIyZFQl8~Tb8HwNYpG9-kNFJJD-2fvEexMCZExsDjljuUe6yNRxOyGm-eoCV1ZISy6Dz2BcopuvrHwUL8u1Ms3pRcihUlK7G-d8KqQfLpL2Z7XxgfxIVCVXd9rBqe5-Hd8hjuDp3z5LxTCkz-E9qRae0I5cRtg1tjh3iv4AO94-~nnXS~5Lrs6xr6aXq2XUHRKUSpi5us30rN-cL1d343HrXTDySfhWXNSSUmAXbXeijYc31geH2BBEOKK-02iasTA6~cwOrpxNzP1k9ruI-xXW2UIxAw__", alt="")
+                    div.half 
+                        h1 Over the years
+                        div 
+                            each div in [1,1,1]
+                                div 
+                                    h1 30+
+                                    p Breakfast<br> Options
+        section.about__page
+            h2 About Us
+            h1 Happy Hours with Us
+            p Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quis pharetra adipiscing ultrices vulputate<br> posuere tristique. In sed odio nec aliquet eu proin mauris et.
+            img(src="/assets/img/Video.png", alt="")
+        section.chef 
+            img(src="/assets/img/chef brat.png", alt="")
+            div 
+                h2 Chef’s Word
+                h1 What we believe in
+                p Lorem ipsum dolor sit amet, consectetur adipiscing elit auctor sit .<br> auctor sit iaculis in arcu. Vulputate nulla lobortis mauris eget sit. Nulla<br> scelerisque scelerisque congue ac consequat, aliquam molestie lectus eu.<br> Congue iaculis integer curabitur semper sit nunc.
+                h2(style="color: #DCCA87;") Kevin Luo
+                p Chef & Founder 
+        section.humans 
+            h2 Testimony
+            h1 Happy Customers 
+            .human 
+                each human in [1,1,1,1]
+                    img(src="/assets/img/Frame 76.png", alt="")
+        section.food 
+            div.food__title 
+                h2 Instagram
+                h1 Photo Gallery 
+                p Lorem ipsum dolor sit amet, consectetur adipiscing elit.<br> Volutpat mattis ipsum turpis elit elit scelerisque egestas mu.
+                button View More
+            .slide 
+                each nu in [1,1,1,1]
+                    img(src="https://s3-alpha-sig.figma.com/img/7657/e3e1/c7b04c743ab8a84c4d86d39abc947dc7?Expires=1718582400&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=I1EqnNuxuMt~KNZ1Z0bGMDrQEto2SyImBUYgFM5s6HSV7Cv4EN1gyxIXDtQNjs~6Bt9DT-CLH9kKycCzATxzluYQrS~U~0ZtOZvkgKEGvIWm~1ZsWTnLURd-YZKPC-8ZzLw-x-KEHsyE~g8VHo-S5sV1ot37r1nziU-oQqRUDcq~-r3z0VLYaTtoILVQ6FGZOHKt9jcxKzFxKFKZtjkiNsoWGmruaWGP8YaETTGCIRcIHY95qjoOZcoN-n~MSjV9J-KOhRTrAGA~0~XX15cBPlDtlEh-9TtBlftQ4RjNZ~iGXwZ8Xx9H-iL16~m94X4SnQ9DJYanuZSwL7nwIsmxaw__", alt="")
+        
