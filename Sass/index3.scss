@@ -5,8 +5,33 @@
 }
 .section3{
     width: 100%;
-    height: 3000px;
+    height: 2500px;
     background-color: #0C0C0C;
+    .nav{
+        width: 100%;
+        height: 100px;
+        background-color: #000;
+        display: flex;
+        align-items: center;
+        .big__yozuv{
+            color: white!important;
+            display: flex;  
+            width: 100%;
+            justify-content: space-between;
+            align-items: center;
+            h1{
+                font-size: 45px;                       
+            }
+            ul li{
+                color: white    ;
+                list-style: none    ;
+            }
+            ul{
+                display: flex;
+                gap: 32px;
+            }
+        }
+    }
     .karta{
         width: 1000px;
         height: 300px;
@@ -46,4 +71,9 @@
         margin-top: -350px;
     }
 }
+}
+.hero{
+    img{
+        width: 100%;
+    }
 }
